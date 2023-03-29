@@ -386,7 +386,8 @@ PRODUCT_PACKAGES += \
     TelephonyResCommon \
     WifiResCommon \
     WifiResTarget \
-    NotchBarKiller
+    NotchBarKiller \
+    SimpleDeviceConfig \
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
