@@ -214,6 +214,9 @@ ro.frp.pst=/dev/block/bootdevice/by-name/frp
 # Fingerprint
 ro.hardware.fp.sideCap=true
 
+# FS-verity
+ro.apk_verity.mode=2
+
 # Graphics
 graphics.gpu.profiler.support=true
 ro.hardware.egl=adreno
