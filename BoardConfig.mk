@@ -86,8 +86,8 @@ BOARD_HALS_DIR := $(DEVICE_PATH)/hals
 include $(BOARD_HALS_DIR)/board_hals.mk
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_topaz
-TARGET_RECOVERY_DEVICE_MODULES := init_topaz
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_topaz
+TARGET_RECOVERY_DEVICE_MODULES ?= init_xiaomi_topaz
 
 # Kernel
 BOARD_KERNEL_BASE := 0x00000000
