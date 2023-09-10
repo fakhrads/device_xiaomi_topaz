@@ -1736,6 +1736,9 @@ vendor/bin/subsystem_ramdump
 vendor/lib/libsubsystem_control.so
 vendor/lib64/libsubsystem_control.so
 
+# Thermal Configs - patched
+vendor/etc/thermal-normal.conf|d44ba836677e9e04d67040ced60ef7abe56f7aae
+
 # Thermal
 vendor/bin/mi_thermald
 vendor/bin/thermal-engine-v2
@@ -1748,7 +1751,6 @@ vendor/etc/thermal-engine.conf
 vendor/etc/thermal-map.conf
 vendor/etc/thermal-navigation.conf
 vendor/etc/thermal-nolimits.conf
-vendor/etc/thermal-normal.conf
 vendor/etc/thermal-phone.conf
 vendor/etc/thermal-tgame.conf
 vendor/etc/thermal-video.conf
