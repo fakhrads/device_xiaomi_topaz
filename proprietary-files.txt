@@ -890,14 +890,11 @@ vendor/etc/init/ssgtzd.rc
 vendor/etc/vintf/manifest/android.hardware.gnss-aidl-service-qti.xml
 vendor/etc/vintf/manifest/vendor.qti.gnss-service.xml
 vendor/etc/apdr.conf
-vendor/etc/batching.conf
 vendor/etc/cacert_location.pem
 vendor/etc/gnss_antenna_info.conf
 vendor/etc/gpfspath_oem_config.xml
-vendor/etc/gps.conf
 vendor/etc/izat.conf
 vendor/etc/lowi.conf
-vendor/etc/sap.conf
 vendor/etc/xtra_root_cert.pem
 vendor/etc/xtwifi.conf
 vendor/lib64/hw/android.hardware.gnss-aidl-impl-qti.so
