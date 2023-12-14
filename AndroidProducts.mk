@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_topaz.mk
+    $(LOCAL_DIR)/evolution_topaz.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_topaz-user \
-    aosp_topaz-userdebug \
-    aosp_topaz-eng
+    evolution_topaz-user \
+    evolution_topaz-userdebug \
+    evolution_topaz-eng
