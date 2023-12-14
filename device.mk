@@ -567,5 +567,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
+
+PRODUCT_PACKAGES += \
+    GCamGOPrebuilt-V3
+    
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/xiaomi/topaz/topaz-vendor.mk)
